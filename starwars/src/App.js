@@ -7,7 +7,7 @@ const App = () => {
   const [info, setInfo] = useState([]);
 
   useEffect(() => {
-    axios.get(`https://swapi.co/api/people/`)
+    axios.get(`https://lambda-swapi.herokuapp.com/api/people/?page=2`)
     .then(response =>  {
       console.log(response.data.results);
       setInfo(response.data.results);
