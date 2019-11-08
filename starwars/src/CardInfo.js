@@ -17,20 +17,22 @@ const CharStyles = styled.div`
     }
 `;
 const NameStyles = styled.h3`
-
+    color: #501E22;
+    font-style: oblique;
     font-size: 1.4rem;
-    // background: #BDB76B;
+    background: #20CECD;
     border-radius: 10px;
-    width: 210px;
-    padding: 2px;   
+    width: 225px;
+    padding: 2px 5px;   
 `;
 
 const Features = styled.p`
-    font-size: 1.2rem;
+    color: #C70542;
+    font-size: 1.3rem;
     font-weight: bold;
     font-style: italic;
     ${CharStyles}:hover & {
-        color: pink;
+        color: #8A64A0;
     }
 `;
 
