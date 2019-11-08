@@ -9,7 +9,7 @@ const CharStyles = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 100%;
-    opacity: 0.8;
+    opacity: 0.9;
 
     transition: transform 0.2s ease-in;
     &:hover {
